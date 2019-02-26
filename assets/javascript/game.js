@@ -14,7 +14,7 @@ document.getElementById("guesses-left").innerHTML = guessesLeft;
 
 var randomlyChooseLetter = function () {
     correctAnswer = alphabet[Math.floor(Math.random() * alphabet.length)];
-    console.log(correctAnswer)
+    
 };
 
 
